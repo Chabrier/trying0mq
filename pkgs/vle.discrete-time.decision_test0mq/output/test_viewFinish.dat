@@ -1,0 +1,25 @@
+#"time"	"top:Farmer.KnowledgeBase"	
+1001	facts: facts: 
+rules: (harvestingR_1@p1:00) (harvestingR_1@p1:01) (harvestingR_1@p1:02) (harvestingR_1@p2:00) (harvestingR_1@p2:01) (harvestingR_1@p2:02) (harvestingR_2@p1:02) (harvestingR_2@p2:00) (rForceFirstLoad) (rSecondDayOfYear)
+Activities: 
+  (Harvesting@p1:00,state: done rules: (harvestingR_1@p1:00) Temporal ctr: [[2232477.000000000000000,+infinity],[0.000000000000000,2232641.000000000000000]] Started at: (2232552.000000000000000) FF valid at: (2232552.000000000000000) Done at: (2232553.000000000000000)))
+  (Harvesting@p1:01,state: failed rules: (harvestingR_1@p1:01) Temporal ctr: [[2232842.000000000000000,+infinity],[0.000000000000000,2233006.000000000000000]] Done at: (2233007.000000000000000)))
+  (Harvesting@p1:02,state: done rules: (harvestingR_1@p1:02) (harvestingR_2@p1:02) Temporal ctr: [[2233207.000000000000000,+infinity],[0.000000000000000,2233371.000000000000000]] Started at: (2233273.000000000000000) FF valid at: (2233273.000000000000000) Done at: (2233274.000000000000000)))
+  (Harvesting@p2:00,state: done rules: (harvestingR_1@p2:00) (harvestingR_2@p2:00) Temporal ctr: [[2232477.000000000000000,+infinity],[0.000000000000000,2232641.000000000000000]] Started at: (2232543.000000000000000) FF valid at: (2232543.000000000000000) Done at: (2232544.000000000000000)))
+  (Harvesting@p2:01,state: done rules: (harvestingR_1@p2:01) Temporal ctr: [[2232842.000000000000000,+infinity],[0.000000000000000,2233006.000000000000000]] Started at: (2232918.000000000000000) FF valid at: (2232918.000000000000000) Done at: (2232919.000000000000000)))
+  (Harvesting@p2:02,state: failed rules: (harvestingR_1@p2:02) Temporal ctr: [[2233207.000000000000000,+infinity],[0.000000000000000,2233371.000000000000000]] Done at: (2233372.000000000000000)))
+  (Sowing@p1:00,state: done rules: Temporal ctr: [[2232418.000000000000000,+infinity],[0.000000000000000,2232460.000000000000000]] Started at: (2232418.000000000000000) FF valid at: (2232418.000000000000000) Done at: (2232419.000000000000000)))
+  (Sowing@p1:01,state: done rules: Temporal ctr: [[2232783.000000000000000,+infinity],[0.000000000000000,2232825.000000000000000]] Started at: (2232783.000000000000000) FF valid at: (2232783.000000000000000) Done at: (2232784.000000000000000)))
+  (Sowing@p1:02,state: done rules: Temporal ctr: [[2233148.000000000000000,+infinity],[0.000000000000000,2233190.000000000000000]] Started at: (2233148.000000000000000) FF valid at: (2233148.000000000000000) Done at: (2233149.000000000000000)))
+  (Sowing@p2:00,state: done rules: Temporal ctr: [[2232418.000000000000000,+infinity],[0.000000000000000,2232460.000000000000000]] Started at: (2232418.000000000000000) FF valid at: (2232418.000000000000000) Done at: (2232419.000000000000000)))
+  (Sowing@p2:01,state: done rules: Temporal ctr: [[2232783.000000000000000,+infinity],[0.000000000000000,2232825.000000000000000]] Started at: (2232783.000000000000000) FF valid at: (2232783.000000000000000) Done at: (2232784.000000000000000)))
+  (Sowing@p2:02,state: done rules: Temporal ctr: [[2233148.000000000000000,+infinity],[0.000000000000000,2233190.000000000000000]] Started at: (2233148.000000000000000) FF valid at: (2233148.000000000000000) Done at: (2233149.000000000000000)))
+  (plan,state: done rules: (rForceFirstLoad) (rSecondDayOfYear) Temporal ctr: [-infinity,+infinity] Started at: (2232401.000000000000000) FF valid at: (2232401.000000000000000) Done at: (2232402.000000000000000)))
+  (plan#01,state: done rules: (rSecondDayOfYear) Temporal ctr: [[2232402.000000000000000,+infinity],[-infinity,+infinity]] Started at: (2232766.000000000000000) FF valid at: (2232766.000000000000000) Done at: (2232767.000000000000000)))
+  (plan#02,state: done rules: (rSecondDayOfYear) Temporal ctr: [[2232767.000000000000000,+infinity],[-infinity,+infinity]] Started at: (2233131.000000000000000) FF valid at: (2233131.000000000000000) Done at: (2233132.000000000000000)))
+  (plan#03,state: wait rules: (rSecondDayOfYear) Temporal ctr: [[2233132.000000000000000,+infinity],[-infinity,+infinity]])
+
+
+
+
+
